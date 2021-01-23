@@ -1,0 +1,48 @@
+.btn {
+    margin: 10px auto;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(218, 226, 238);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(241, 233, 209);
+}
+
+.inputs {
+    margin: 20px auto;
+    border: 2px solid rgb(113, 125, 145);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.card {
+    width: 200px;
+    margin: 20px;
+}
+
+.card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+.result {
+    border: 2px solid rgb(113, 125, 145);
+    border-radius: 10px;
+    min-height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
